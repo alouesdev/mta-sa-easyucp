@@ -1,5 +1,5 @@
 # mta-sa-easyucp
-Basic UCP For MTA:SA
+Basic UCP For MTA:SA &copy; Aloues
 
 
 1. Make a Remote MySQL Connection with your Virtual Server or Connect to Localhost.
@@ -10,7 +10,8 @@ Basic UCP For MTA:SA
 If your infrastructure is OWLGAMING, add this code to login.php {
 
 
-``` $hesapIDCek = mysqli_query($baglanti,"SELECT * from accounts WHERE username='$k_adi'"); ```
+``` 
+$hesapIDCek = mysqli_query($baglanti,"SELECT * from accounts WHERE username='$k_adi'"); 
 
             foreach($hesapIDCek as $hid){
                 $hesapID = $hid['id'];
@@ -20,16 +21,20 @@ If your infrastructure is OWLGAMING, add this code to login.php {
             $encryptionRule = "salt";
             $sifre_md5 = md5(md5($sifre).$salt);
         $sifredogrula = mysqli_query($baglanti,"SELECT * from accounts where username='$k_adi' and password='$sifre_md5'"); 
-
+```
 
 
 
 } Delete This Code {
 
-
-``` $encryptionRule = "wedorp";
+```
+ $encryptionRule = "wedorp";
         $sifre_md5 = md5($encryptionRule.$sifre);
         $sifredogrula = mysqli_query($baglanti,"SELECT * from accounts where username='$k_adi' and password='$sifre_md5'"); ```
-
+```
 
 }
+
+
+
+Don't try to sell it or aloues will find you :)
