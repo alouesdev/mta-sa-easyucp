@@ -5,6 +5,7 @@ Basic UCP For MTA:SA &copy; Aloues
 1. Make a Remote MySQL Connection with your Virtual Server or Connect to Localhost.
 2. Customize Theme.
 3. I hope you will be satisfied using it.
+4. Don't forget to extract the vendor.rar to the folder!
 
 
 If your infrastructure is OWLGAMING, add this code to login.php {
