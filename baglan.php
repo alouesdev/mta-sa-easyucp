@@ -1,9 +1,9 @@
 <?php
 setcookie('cross-site-cookie', 'bar', ['samesite' => 'None', 'secure' => true]);
-$hostadresi = "176.98.41.236";
-$kullaniciadi = "yoldasucp";
-$sifre = "re7bJiLlVAxTxeji";
-$veritabani = "ucp";
+$hostadresi = "127.0.0.1";
+$kullaniciadi = "root";
+$sifre = "";
+$veritabani = "";
 $baglanti = mysqli_connect($hostadresi,$kullaniciadi,$sifre,$veritabani);
 if (mysqli_connect_errno())
 {
